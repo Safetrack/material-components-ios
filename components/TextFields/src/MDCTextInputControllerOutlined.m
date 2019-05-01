@@ -28,10 +28,10 @@
 
 #pragma mark - Class Properties
 
-static const CGFloat MDCTextInputOutlinedTextFieldFloatingPlaceholderPadding = 8;
-static const CGFloat MDCTextInputOutlinedTextFieldFullPadding = 16;
-static const CGFloat MDCTextInputOutlinedTextFieldNormalPlaceholderPadding = 20;
-static const CGFloat MDCTextInputOutlinedTextFieldThreeQuartersPadding = 12;
+static const CGFloat MDCTextInputOutlinedTextFieldFloatingPlaceholderPadding = 16;
+static const CGFloat MDCTextInputOutlinedTextFieldFullPadding = 8;
+static const CGFloat MDCTextInputOutlinedTextFieldNormalPlaceholderPadding = 10;
+static const CGFloat MDCTextInputOutlinedTextFieldThreeQuartersPadding = 6;
 
 static UIRectCorner _roundedCornersDefault = UIRectCornerAllCorners;
 
@@ -206,7 +206,7 @@ static UIRectCorner _roundedCornersDefault = UIRectCornerAllCorners;
   self.textInput.borderView.borderStrokeColor =
       (self.isDisplayingCharacterCountError || self.isDisplayingErrorText) ? self.errorColor
                                                                            : borderColor;
-  self.textInput.borderView.borderPath.lineWidth = self.textInput.isEditing ? 2 : 1;
+  self.textInput.borderView.borderPath.lineWidth = self.textInput.isEditing ? 0.8 : 0.2;
 
   [self.textInput.borderView setNeedsLayout];
 

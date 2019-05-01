@@ -31,12 +31,11 @@
 
 #pragma mark - Constants
 
-const CGFloat MDCTextInputControllerBaseDefaultBorderRadius = 4;
+const CGFloat MDCTextInputControllerBaseDefaultBorderRadius = 1;
 static const CGFloat MDCTextInputControllerBaseDefaultFloatingPlaceholderScaleDefault =
     (CGFloat)0.75;
 static const CGFloat MDCTextInputControllerBaseDefaultHintTextOpacity = (CGFloat)0.54;
-static const CGFloat MDCTextInputControllerBaseDefaultPadding = 8;
-
+static const CGFloat MDCTextInputControllerBaseDefaultPadding = 2;
 static const NSTimeInterval
     MDCTextInputControllerBaseDefaultFloatingPlaceholderDownAnimationDuration = (CGFloat)0.266666;
 static const NSTimeInterval
